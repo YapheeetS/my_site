@@ -1,0 +1,40 @@
+[[main]]
+  identifier = "about"
+  name = "About"
+  url = "about"
+  weight = 1
+
+[[main]]
+  identifier = "archive"
+  name = "Archive"
+  url = "archive"
+  weight = 2
+
+# [[main]]
+#   identifier = "pt"
+#   name = "Pt"
+#   url = "presentation"
+#   weight = 3
+
+[[main]]
+  identifier = "gallery"
+  name = "Gallery"
+  url = "gallery"
+  weight = 3
+
+[[main]]
+  parent = "gallery"
+  name = "US"
+  url = "gallery/us"
+
+[[main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "posts"
+  weight = 4
+
+[[main]]
+  identifier = "showcase"
+  name = "Showcase"
+  url = "showcase"
+  weight = 5

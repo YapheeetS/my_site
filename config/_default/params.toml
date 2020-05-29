@@ -1,7 +1,7 @@
-logoText = "Haojin Liao" # Logo text that appears in the site navigation bar.
+logoText = "Jamie's Home" # Logo text that appears in the site navigation bar.
 logoType = "short" # long, short -> short: squre shape includes logo text, long: rectangle shape not includes logo text
-logo = true # Logo that appears in the site navigation bar.
-description = "Haojin Liao's Home page." # for SEO
+logo = false # Logo that appears in the site navigation bar.
+description = "Jamie's Home page." # for SEO
 custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
 useFaviconGenerator = false # https://www.favicon-generator.org/
@@ -9,9 +9,9 @@ meta_image = ""
 themecolor = ""
 
 themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"] # select options for site color theme
-notAllowedTypesInHome = ["contact", "talks", "about", "showcase"] # not allowed page types in home page. type can be set in front matter or default to folder name.
-notAllowedTypesInHomeSidebar = ["about", "archive", "showcase"] # not allowed page types in home page sidebar(recent post titles).
-notAllowedTypesInArchive = ["about", "talks", "showcase"] # not allowed page types in archive page
+notAllowedTypesInHome = ["contact", "talks", "about", "showcase", "presentation", "gallery"] # not allowed page types in home page. type can be set in front matter or default to folder name.
+notAllowedTypesInHomeSidebar = ["about", "archive", "showcase", "presentation"] # not allowed page types in home page sidebar(recent post titles).
+notAllowedTypesInArchive = ["about", "talks", "showcase","presentation","gallery"] # not allowed page types in archive page
 
 # header
 homeHeaderType = "text" # text, img, slide
@@ -36,13 +36,13 @@ pubPaginate = 20
 
 # whoami
 # whoami: usage - home page sidebar, single page bottom of post. all values can be empty
-myname = "Haojin Liao"
+myname = "Jamie"
 email = "liaohaojin@gmail.com"
-whoami = "Machine Learning, NLP"
+whoami = "计算机科学爱好者，北京邮电大学研究生"
 bioImageUrl = "" # image url like "http//..." or "images/anyfoldername/mybioimage.jpg" If not set, we find a avatar image in root/static/images/whoami/avatar.(png|jpg|svg)
 useGravatar = false # we use this option highest priority
-location = "Arlington, TX, US"
-organization = "the University of Texas at Arlington"
+location = "Beijing, China"
+# organization = "北京邮电大学"
 link = "https://github.com/YapheeetS"
 
 # sidebar
@@ -133,7 +133,7 @@ commento = false
 [socialOptions]
   email = "mailto:liaohaojin@gmail.com"
   phone = ""
-  facebook = ""
+  facebook = "https://www.facebook.com/haojin.liao.92/"
   twitter = "https://twitter.com/jameee68540706"
   github = "https://github.com/YapheeetS"
   stack-overflow = ""
@@ -142,7 +142,7 @@ commento = false
   youtube = ""
   medium = ""
   tumblr = ""
-  linkedin = ""
+  linkedin = "https://www.linkedin.com/in/%E8%B1%AA%E5%8A%B2-%E5%BB%96-128bb6100/"
   pinterest = ""
   stack-exchange = ""
   telegram = ""
@@ -150,7 +150,7 @@ commento = false
   weibo = ""
   douban = ""
   csdn = ""
-  gitlab = ""
+  gitlab = "https://gitlab.com/liaohaojin"
   mastodon = ""
   jianshu = ""
   zhihu = ""
