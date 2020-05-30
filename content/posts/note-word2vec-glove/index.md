@@ -1,6 +1,6 @@
 ---
 title: "笔记：word2vec(skip-gram) & GloVe"
-date: 2020-03-14T06:40:51+09:00
+date: 2020-05-29T06:40:51+09:00
 description: skip-gram和GloVe的理解及推导过程
 draft: false
 hideToc: false
