@@ -17,7 +17,7 @@ image: images/feature3/code-file.png
 
 # 
 
-## Kaggle Link: [https://www.kaggle.com/jameee/term-project](https://www.kaggle.com/jameee/term-project)
+## Kaggle Link: [https://www.kaggle.com/jvanelteren/boardgamegeek-reviews](https://www.kaggle.com/jvanelteren/boardgamegeek-reviews)
 
 
 ## Environment
