@@ -12,7 +12,7 @@ tags:
 - Deep learning
 categories:
 - cv
-image: images/feature1/markdown.png
+image: images/feature2/mathbook.png
 libraries:
 - mathjax
 ---

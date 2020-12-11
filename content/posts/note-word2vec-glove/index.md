@@ -14,7 +14,7 @@ series:
 - word vector
 categories:
 - nlp
-image: images/feature1/markdown.png
+image: images/feature2/mathbook.png
 ---
 
 ### skip-gram 和 GloVe 的理解及推导过程
