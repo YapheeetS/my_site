@@ -16,16 +16,16 @@
 #   url = "presentation"
 #   weight = 3
 
-[[main]]
-  identifier = "gallery"
-  name = "Gallery"
-  url = "gallery"
-  weight = 3
+# [[main]]
+#   identifier = "gallery"
+#   name = "Gallery"
+#   url = "gallery"
+#   weight = 3
 
-[[main]]
-  parent = "gallery"
-  name = "US"
-  url = "gallery/us"
+# [[main]]
+#   parent = "gallery"
+#   name = "US"
+#   url = "gallery/us"
 
 [[main]]
   identifier = "posts"
