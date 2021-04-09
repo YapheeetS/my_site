@@ -150,7 +150,7 @@ ON-LSTM运算流程示意图:
 
 
 #### 分组层级
-假设隐层神经元数目为<font color=#9ACD32>$n$</font>，它可以分解为<font color=#9ACD32>$n=pq$</font>，那么我们可以只构造一个<font color=#9ACD32>$p$</font>个神经元的<font color=#9ACD32>$\tilde{f}_t,\tilde{i}_t$</font>，维度是<font color=#9ACD32>$(p，1)$</font>，而<font color=#9ACD32>$f_t,i_t$</font>的神经元个数为<font color=#9ACD32>$n=pq$</font>，其维度是<font color=#9ACD32>$(p，q)$</font>。在做运算<font color=#9ACD32>$\hat{f}\_t = \omega_t \circ f\_{t} + (\tilde{f}_t - \omega_t)$</font>的时候，会对将<font color=#9ACD32>$f_t$</font>看做<font color=#9ACD32>$q$</font>个组，分别进行相乘。
+代表层级的向量<font color=#9ACD32>$\tilde{f}_t,\tilde{i}_t$</font>要与<font color=#9ACD32>$f_t,i_t$</font>做$\circ$运算，这意味着它们的维度大小（即神经元数目）要相等。假设隐层神经元数目为<font color=#9ACD32>$n$</font>，它可以分解为<font color=#9ACD32>$n=pq$</font>，那么我们可以只构造一个<font color=#9ACD32>$p$</font>个神经元的<font color=#9ACD32>$\tilde{f}_t,\tilde{i}_t$</font>，维度是<font color=#9ACD32>$(p，1)$</font>，而<font color=#9ACD32>$f_t,i_t$</font>的神经元个数为<font color=#9ACD32>$n=pq$</font>，其维度是<font color=#9ACD32>$(p，q)$</font>。在做运算<font color=#9ACD32>$\hat{f}\_t = \omega_t \circ f\_{t} + (\tilde{f}_t - \omega_t)$</font>的时候，会对将<font color=#9ACD32>$f_t$</font>看做<font color=#9ACD32>$q$</font>个组，分别进行相乘。这样既减少了层级的总数，同时还减少了模型的参数量，因为<font color=#9ACD32>$p$</font>通常可以取得比较小（比n小1～2个数量级），因此相比普通的LSTM，ON-LSTM并没有增加太多参数量。
 
 ## Reference
 1. [https://spaces.ac.cn/archives/6621](https://spaces.ac.cn/archives/6621)
